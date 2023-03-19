@@ -9,6 +9,7 @@ module.exports = {
         'grey-1' : '#D0D1D2',
         'grey-2' : '#F8F9FE',
         'violet-d' : '#422F8A',
+        'violet-m' : '#7459D9',
         'violet-l' : '#F2F2F7',
       },
     },

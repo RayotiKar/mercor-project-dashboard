@@ -7,12 +7,13 @@ import { TbAlertCircle } from "react-icons/tb"
 import { BsThreeDots } from "react-icons/bs"
 import { HiOutlineCalendar } from "react-icons/hi"
 import Rightsidebar from './Rightsidebar'
+import Analytics from './Analytics'
 
 
 const Hero = () => {
   return (
     <div className="flex ml-20">
-        <div className="main-part w-11/12">
+        <div className="w-11/12">
           <ul className="flex space-x-3 part-1 font-sans-2 pl-5 pt-8 h-5 w-16 text-xs">
               <li className=" text-violet-d font-bold">ANALYTICS</li>
               <li className="text-grey-1 m-auto"><FiChevronRight/></li>
@@ -36,6 +37,9 @@ const Hero = () => {
               <li className="flex font-sans-1 font-normal border-2 rounded-md"> <div className="ml-2">March 2023 </div><HiOutlineCalendar className="mx-2 my-1"/></li>
               <li className="border-2 rounded-md pb-4 px-1"><BsThreeDots className="mt-1"/></li>
             </ul>
+          </div>
+          <div className="">
+            <Analytics/>
           </div>
         </div>
         <div className="right-side-bar w-3/12">
